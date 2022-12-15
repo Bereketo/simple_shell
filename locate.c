@@ -1,7 +1,6 @@
 /*
  * File: locate.c
- * Auth: Alex Yu
- *       Brennan D Baraban
+ *
  */
 
 #include "shell.h"
