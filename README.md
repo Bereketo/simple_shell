@@ -1,7 +1,5 @@
 # shellby - Simple Shell :shell:
 
-A simple UNIX command interpreter written as part of the low-level programming and algorithm track at Holberton School.
-
 ## Description :speech_balloon:
 
 **Shellby** is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
@@ -59,7 +57,7 @@ The previous working directory as set by the **cd** command.
 
 ```
 $ echo "echo $OLDPWD" | ./shellby
-/home/vagrant/holberton/printf
+/home/vagrant/alx/printf
 ```
 
 #### PATH
@@ -180,13 +178,13 @@ Example:
 ```
 $ ./shellby
 $ pwd
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 $ cd ../
 $ pwd
-/home/vagrant/holberton
+/home/vagrant/alx
 $ cd -
 $ pwd
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### alias
